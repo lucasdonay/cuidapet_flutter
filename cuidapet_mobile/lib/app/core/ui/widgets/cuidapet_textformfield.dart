@@ -45,10 +45,10 @@ class CuidapetTextformfield extends StatelessWidget {
               color: Colors.black,
             ),
             border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(15),
+              borderRadius: BorderRadius.circular(5),
             ),
             focusedBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(15),
+              borderRadius: BorderRadius.circular(5),
               borderSide: const BorderSide(color: Colors.grey),
             ),
           ),
