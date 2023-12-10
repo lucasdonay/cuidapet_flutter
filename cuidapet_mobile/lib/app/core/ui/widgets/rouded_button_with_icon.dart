@@ -7,14 +7,14 @@ class RoudedButtonWithIcon extends StatelessWidget {
     required this.onTap,
     this.width,
     this.color,
-    required this.icon,
+    this.icon,
     required this.text,
   });
 
   final GestureTapCallback onTap;
   final double? width;
   final Color? color;
-  final IconData icon;
+  final IconData? icon;
   final String text;
 
   @override

@@ -4,3 +4,4 @@ linter:
   rules:
     avoid_shadowing_type_parameters: false
     await_only_futures: true
+    constant_identifier_names: false

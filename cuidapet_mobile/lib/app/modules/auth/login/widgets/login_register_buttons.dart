@@ -27,7 +27,7 @@ class _LoginRegisterButtons extends StatelessWidget {
         ),
         RoudedButtonWithIcon(
           onTap: () {
-            Modular.to.pushNamed('/register');
+            Modular.to.pushNamed('/register/');
           },
           width: .42.sw,
           color: context.primaryColor,

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "123355456746",
+    "project_id": "cuidapet-donay",
+    "storage_bucket": "cuidapet-donay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123355456746:android:de1783daa7e8579ea22393",
+        "android_client_info": {
+          "package_name": "br.com.lucasdonay.cuidapet_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcaqZ7k2fdBaKFO9zdVw2lt-FBW73R9TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
