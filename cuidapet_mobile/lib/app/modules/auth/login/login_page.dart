@@ -1,7 +1,8 @@
-import 'package:cuidapet_mobile/app/core/helpers/environments.dart';
 import 'package:cuidapet_mobile/app/core/ui/extensions/size_screen_extension.dart';
 import 'package:cuidapet_mobile/app/core/ui/extensions/theme_extension.dart';
 import 'package:cuidapet_mobile/app/core/ui/icons/cuida_pet_icons.dart';
+import 'package:cuidapet_mobile/app/core/ui/widgets/loader.dart';
+import 'package:cuidapet_mobile/app/core/ui/widgets/messages.dart';
 import 'package:cuidapet_mobile/app/core/ui/widgets/rouded_button_with_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -26,7 +27,6 @@ class LoginPage extends StatelessWidget {
           padding: EdgeInsets.all(15),
           child: Column(
             children: [
-              Text(Environments.param('base_url') ?? 'deu erro'),
               SizedBox(
                 height: 70.h,
               ),

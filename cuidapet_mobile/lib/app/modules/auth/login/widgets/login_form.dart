@@ -26,7 +26,9 @@ class _LoginFormState extends State<_LoginForm> {
           ),
           CuidapetDefaultButton(
             label: 'Entrar',
-            onPressed: () {},
+            onPressed: () {
+              Messages.info('Mensagem de Erro');
+            },
           )
         ],
       ),
